@@ -1,0 +1,17 @@
+LRO LROC WAC Image Mosaic, S Pole
+Layer ID : LRO_WAC_Mosaic_SPole60_100mp
+bbox : -931100,-931100,931100,931100
+WMTS Endpoint : 
+Abstract : 
+Projection :
+这是以单色模式拍摄的月球勘测轨道飞行器相机（LROC）广角相机（WAC）图像的初步南极马赛克。全球 WAC 马赛克提供了一个全球形态底图，其入射角介于 60 到 80 度之间，但极地地区除外，因为极地区域太阳在地平线上总是非常低。
+PROJCS["Moon2000_sp",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",-90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
